@@ -34,6 +34,7 @@ body {
 }
 .main-nav .logo{
   padding: 20px 0;
+  font-weight: 900;
 }
 nav ul{
   list-style: none;
@@ -42,7 +43,10 @@ nav ul{
 nav li{
   display: inline-block;
 }
-
+nav a{
+  text-decoration: none;
+  color: #000;
+}
 /* -- forms -- */
 
 form.is-processing {
